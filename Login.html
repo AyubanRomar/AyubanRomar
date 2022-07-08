@@ -1,0 +1,184 @@
+   
+   <html>
+   
+ 
+<head>
+
+   
+   
+    <style type="text/css">
+    body{
+     background-image: url('sky.jpg'); 
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%; 
+     
+    
+    }
+    </style>
+   <title> LoginSystem </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+
+<style type="text/css">
+   
+      div.absolute{
+        position:  absolute;
+         margin-top:50 ;
+         top: 15;
+         bottom: 300px;
+         margin-right: 25px;
+         margin-left: 25px;
+         width: 300px;
+         height: 400px;
+         background: transparent;
+        
+         
+      }
+      
+      div.container{
+        
+         top: 12px;
+         margin-top:80;
+         bottom: 300px;
+         margin-right: 25px;
+         margin-left: 25px;
+         width: 300px;
+         height: 450px;
+         background: gray;
+         opacity: 0.5;
+         border-radius: 10px;
+         position: relative;
+         
+      }
+     
+      
+   </style>
+  
+
+</head>
+
+<body>
+ <div class ="container">
+    
+      </div>
+  <div class = "absolute">
+   <center>
+      <p id="p1"> <h2
+
+      style="font-family: cursive ;color: black; font-size: 55px; text-shadow: 2px 2px 3px white; ">Login System </h2></p>
+    
+     
+     
+       <h4 style= "font-family: Times New Roman" </h4> Username:
+         <input style="padding: 9px; border: 1px solid #808080; font-size: 15px;" type="text" id="username" placeholder="input username... " />
+              <h4 style= "font-family: Times New Roman" </h4> Password:
+         <input style="padding: 9px; border: 1px solid #808080; font-size: 15px;" type="Password" id="pass" placeholder="input password....." />
+       <br>
+       <br>
+       <br>
+    
+       <button onclick="getValue()"id= "button1">
+      <h6 style= "font-family: Times New Roman; padding: 15px; font-size: 15; margin-top:0; margin-bottom: 0; border-radius: "  /> Login </button>
+   
+   <script type="text/javascript">
+       function getValue() {
+           alert(document.getElementById
+            ('username').value)
+         
+           alert(document.getElementById
+            ('pass').value);
+         
+       } 
+      
+   </script>
+   <style type="text/css">
+      .lightbox {
+         display: table; /* helps us center the lightbox-content */
+         /* make the lightbox occupy the entire page */
+         position: fixed;
+         top: 100%; /* position the lightbox above the top edge */
+         left: 0;
+         width: 100%;
+         height: 100%;
+         background: rgba(0, 0, 0, 0.8); /* black with 0.8 opacity */
+         transition-duration: 1.5s; /* set the duration of the slide down effect */
+      }
+      .lightbox:target {
+         top: 0; /* cover the entire screen */
+      }
+      .lightbox-content {
+         display: table-cell;
+         vertical-align: middle; /* vertically center */
+         text-align: center; /* horizontally center */
+      }
+      .close {
+         /* position the CLOSE button to the top-right corner */
+         position: absolute;
+         top: 10px;
+         right: 10px;
+         
+         /* style the close button */
+         font-size: 20px;
+         font-weight: 300;
+         text-decoration: none;
+         color: white;
+      }
+      
+
+   </style>
+</head>
+<body>   
+<br>
+<br>
+   <a href="#signup"> Sign-up </a>
+   
+   <div class="lightbox" id="signup">
+     <a href="#" class="close">Back</a><br><br>
+    
+       <p id="p1"> <h2
+      style="font-family: cursive ;color: #ffffff; font-size: 55px; text-shadow: 3px 3px 4px blue; "> Sign-up</h2></p>
+             
+        <form action="sample-page-handler.html" method="GET">
+      
+          
+      <br> <input style="padding: 10px; border: 1px solid #808080;" 
+       type="text" name="fullname" placeholder="Full Name" />
+     
+     
+     <input style="padding: 10px; border: 1px solid #808080;" type="text" name="Contact" placeholder="Contact No." /> <br>
+       
+         <br><input style="padding: 10px; border: 1px solid #808080;" type="text" name="age" placeholder="Age" />
+         
+       
+        <input style="padding: 10px; border: 1px solid #808080;" type="text" name="username1" placeholder="Username" /><br>
+       
+              <br> <input style="padding: 10px; border: 1px solid #808080;" type="text" name="address" placeholder="Address" /> 
+       
+       
+       <input style="padding: 10px; border: 1px solid #808080;" type="password" name="password1" placeholder="Password" No/> <br>  
+ 
+        <br>  <input style="padding: 10px; border: 1px solid #808080;" type="text" name="position" placeholder="Position" /> 
+
+            <input style="padding: 10px; border: 1px solid #808080;" type="password" name="cpassword" placeholder="Confirm Password" /><br>
+            
+     <br>
+     <br>
+       <input type="submit" />
+       
+   </form>   
+            
+      </div>
+   </div>
+ 
+   </center>
+   
+    </div>
+
+</body>
+</html>
+   
+ 
